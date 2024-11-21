@@ -1,7 +1,7 @@
 export default {
     client: "sqlite3",
     connection: {
-        filename: "./KRB-Data.db",
+        filename: "./KRH-Data.db",
     },
     useNullAsDefault: true,
 };

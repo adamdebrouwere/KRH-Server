@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-const db = new sqlite3.Database('KRB-Data.db', (error) => {
+const db = new sqlite3.Database('KRH-Data.db', (error) => {
     if (error) {
         console.error('Error opening Dataase:', error.message);
     } else {
